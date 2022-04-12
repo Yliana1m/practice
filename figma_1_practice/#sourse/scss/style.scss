@@ -1,0 +1,72 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans&family=Roboto:wght@400;500;700&display=swap');
+@font-face {
+	font-family: 'Crimson Text';
+	src: local('Crimson Text Regular'), local('Crimson-Text-Regular'),
+		 url('CrimsonText-Regular.woff2') format('woff2'),
+		 url('CrimsonText-Regular.woff') format('woff'),
+		 url('CrimsonText-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+ }
+@import "nullstyle.scss";
+//файл обнуляющих стилей
+
+
+
+.about {
+	background:url('/imj./banner.pdf');
+	&:after {
+		content: "";
+		position: absolute;
+		width: 1442px;
+		bottom: 0;
+		height: 773px;
+		left: 1px;
+		top: 3px;
+}
+.about__body {
+	
+}
+.about__header {
+	
+}
+.about__title {
+	
+}
+.title {
+	font-family:'Crimson Text';
+	font-size: 64px;
+	font-style:normal;
+	font-weight: 400 ;
+	line-height: 88.44px;
+	&:after {
+		content: "";
+	position: absolute;
+		width: 538px;
+		height: 129px;
+		left: 152px;
+		top: 159px;
+		color: #112734;
+	span{
+		color: #375B26;
+	}
+}
+.item-about__text1{
+	font-family:'Crimson Text';
+	font-size: 36px;
+	font-style:normal;
+	font-weight: 400 ;
+	line-height: 50%;
+	color: rgba(17, 39, 52, 0.7);
+	&:after {
+		content: "";
+	position: absolute;
+		width: 538px;
+		height: 129px;
+		left: 152px;
+		top: 159px;
+		
+}
+}

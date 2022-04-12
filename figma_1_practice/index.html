@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+
+	<meta charset="UTF-8">
+
+	<title> БЕМ 2 ДУБЛЬ </title>
+
+	<!подключение css к html файлу. В значении атрибута rel указывается тип файла и по умолчанию это stylesheet и в
+		атрибуте href мы должны указать путь к файлу>
+
+		<link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+	<!--создаем блок about-->
+	<div class="about">
+		<!--создаю блок который будет ограничивать ширину контента "about__body" и создаю его как 
+	неотьемлемый элемент блока about -->
+		<div class="about__body">
+			<!--верхняя часть страницы щглавление и текст называю ее header тоже как неотьемлемый элемент-->
+			<div class="about__header">
+				<!--внутри about__header я делаю элемент title,но этот же элемент title я обьявлю
+			как и отдельный блок title-->
+				<div class="about__title title">Practice <span>At Home</span> </div>
+				<!--текст под оглавлением тоже неотьемлемый элемент блока about-->
+				<!--завершающий div about__header-->
+			</div>
+
+			<!--первая колонка column-->
+			<div class="about__column1">
+				<!--внутри каждой колонки есть свой одельный блок ,который я возможно буду использовать 
+				в других местах и назову я его item-about-->
+				<div class="item-about__text1">
+					With the World’s Top Yoga Teachers
+					<!--завершающий div блока item-about первой колонки -->
+				</div>
+				<!--завершающий div первой column-->
+			</div>
+
+
+
+
+
+			<!--вторая колонка column-->
+			<div class="about__column2">
+				<!--внутри каждой колонки есть свой одельный блок ,который я возможно буду использовать 
+				в других местах и назову я его item-about-->
+
+				<!--текст item-about__text-->
+				<div class="item-about__text2">Stream hundreds of expertly led yoga & meditation classes on any device.
+					Your free trial awaits. Cancel online anytime.</div>
+				<!--завершающий div блока item-about второй колонки -->
+			</div>
+			<!--завершающий div второй колонки-->
+		</div>
+		<!--третья колонка column-->
+		<div class="about__column3">
+			<!--внутри каждой колонки есть свой одельный блок ,который я возможно буду использовать 
+				в других местах и назову я его item-about-->
+			<div class="item-about">
+
+				<!--текст item-about__text-->
+				<div class="item-about__text3">Start your free trial</div>
+				<!--завершающий div блока item-about третьей колонки -->
+			</div>
+			<!--завершающий div третьей колонки-->
+		</div>
+		<!--завершающий div блока about__row-->
+	</div>
+	<!--завершающий div элемента блока about__body -->
+	</div>
+	<!--завершающий div блока about-->
+	</div>
+
+</body>
+
+</html>

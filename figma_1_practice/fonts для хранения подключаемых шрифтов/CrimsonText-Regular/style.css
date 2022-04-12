@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Crimson Text';
+    src: local('Crimson Text Regular'), local('Crimson-Text-Regular'),
+        url('CrimsonText-Regular.woff2') format('woff2'),
+        url('CrimsonText-Regular.woff') format('woff'),
+        url('CrimsonText-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
